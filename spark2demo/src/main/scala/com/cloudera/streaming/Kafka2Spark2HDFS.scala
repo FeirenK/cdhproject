@@ -26,16 +26,16 @@ import scala.util.parsing.json.JSON
   * --driver-memory 2g \
   * --num-executors 2 \
   * --queue default  \
-  * --principal fayson@FAYSON.COM \
-  * --keytab /data/disk1/spark2streaming-kafka-hdfs/conf/fayson.keytab \
+  * --principal Feiren@Feiren.COM \
+  * --keytab /data/disk1/spark2streaming-kafka-hdfs/conf/Feiren.keytab \
   * --driver-java-options "-Djava.security.auth.login.config=/data/disk1/spark2streaming-kafka-hdfs/conf/jaas.conf" \
   * --conf "spark.executor.extraJavaOptions=-Djava.security.auth.login.config=/data/disk1/spark2streaming-kafka-hdfs/conf/jaas.conf" \
   * spark2-demo-1.0-SNAPSHOT.jar
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/7/17
   * creat_time: 下午11:08
-  * 公众号：Hadoop实操
+
   */
 object Kafka2Spark2HDFS {
 

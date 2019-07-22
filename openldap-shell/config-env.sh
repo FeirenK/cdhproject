@@ -4,14 +4,14 @@
 mkdir -p ldif
 mkdir -p keytab
 #OpenLDAP信息
-ldap_url="ldap://cdh01.fayson.com"
-user_base="ou=People,dc=fayson,dc=com"
-group_base="ou=Group,dc=fayson,dc=com"
-super_admin="cn=Manager,dc=fayson,dc=com"
+ldap_url="ldap://cdh01.Feiren.com"
+user_base="ou=People,dc=Feiren,dc=com"
+group_base="ou=Group,dc=Feiren,dc=com"
+super_admin="cn=Manager,dc=Feiren,dc=com"
 super_password="123456"
 
 #kerberos信息
-domain="FAYSON.COM"
+domain="Feiren.COM"
 
 #输出异常日志方法
 function show_errmsg() {

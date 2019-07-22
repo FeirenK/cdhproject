@@ -12,11 +12,11 @@ import java.net.URI;
 /**
  * package: com.cloudera.hdfs.basic
  * describe: Java客户端多集群访问操作(Kerberos和非Kerberos集群)
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2019/2/21
  * creat_time: 上午10:44
- * 公众号：Hadoop实操
+
  */
 public class MultipleClusterTest {
 
@@ -62,7 +62,7 @@ public class MultipleClusterTest {
         System.setProperty("sun.security.krb5.debug", "true");
         try {
             UserGroupInformation.setConfiguration(conf);
-            UserGroupInformation.loginUserFromKeytab("fayson", "/Users/zoulihan/Documents/develop/kerberos/local/fayson.keytab");
+            UserGroupInformation.loginUserFromKeytab("Feiren", "/Users/zoulihan/Documents/develop/kerberos/local/Feiren.keytab");
             System.out.println(UserGroupInformation.getCurrentUser());
         } catch (IOException e) {
             e.printStackTrace();

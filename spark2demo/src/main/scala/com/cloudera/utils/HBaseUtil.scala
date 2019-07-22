@@ -9,11 +9,11 @@ import org.apache.hadoop.security.UserGroupInformation
 /**
   * package: com.cloudera.utils
   * describe: 获取HBase Conncetion工具类
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/6/25
   * creat_time: 下午10:46
-  * 公众号：Hadoop实操
+
   */
 object HBaseUtil {
 

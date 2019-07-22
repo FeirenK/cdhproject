@@ -9,11 +9,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.hdfs.utils
  * describe: HDFSAdmin API 工具类
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/6/8
  * creat_time: 上午11:01
- * 公众号：Hadoop实操
+
  */
 public class HDFSAdminUtils {
 

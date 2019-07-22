@@ -13,11 +13,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.hbase
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/11/30
  * creat_time: 上午12:49
- * 公众号：Hadoop实操
+
  */
 public class KBHBaseTest {
 
@@ -33,7 +33,7 @@ public class KBHBaseTest {
 
         UserGroupInformation.setConfiguration(configuration);
         try {
-            UserGroupInformation.loginUserFromKeytab("fayson@FAYSON.COM", "/Users/xxxx/Desktop/hbase-test/conf/fayson.keytab");
+            UserGroupInformation.loginUserFromKeytab("Feiren@Feiren.COM", "/Users/xxxx/Desktop/hbase-test/conf/Feiren.keytab");
 
             Connection connection = ConnectionFactory.createConnection(configuration);
             Table table = connection.getTable(TableName.valueOf("picHbase"));

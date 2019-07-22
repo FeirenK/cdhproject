@@ -16,15 +16,15 @@ import com.cloudera.api.v8.RolesResourceV8;
 /**
  * package: com.cloudera
  * describe: 使用Cloudera Manager API实现Yarn动态资源池分配，基于Fair Schedule
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/8/7
  * creat_time: 下午12:04
- * 公众号：Hadoop实操
+
  */
 public class DynamicResourcePoolAllocation {
 
-    private static String cm_host = "cdh01.fayson.com";
+    private static String cm_host = "cdh01.Feiren.com";
     private static int cm_port = 7180;
     private static String cm_username = "admin";
     private static String cm_password = "admin";

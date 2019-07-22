@@ -16,11 +16,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.solr
  * describe: Kerberos环境下的Solr访问
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/11/26
  * creat_time: 上午2:10
- * 公众号：Hadoop实操
+
  */
 public class KBSolrTest {
 

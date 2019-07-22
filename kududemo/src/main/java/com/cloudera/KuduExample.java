@@ -6,15 +6,15 @@ import org.apache.kudu.client.*;
 /**
  * package: com.cloudera
  * describe: 使用API方式访问Kudu数据库
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/12
  * creat_time: 上午2:04
- * 公众号：Hadoop实操
+
  */
 public class KuduExample {
 
-    private static final String KUDU_MASTER = System.getProperty("kuduMasters", "cdh1.fayson.com:7051,cdh2.fayson.com:7051,cdh3.fayson.com:7051");
+    private static final String KUDU_MASTER = System.getProperty("kuduMasters", "cdh1.Feiren.com:7051,cdh2.Feiren.com:7051,cdh3.Feiren.com:7051");
 
     public static void main(String[] args) {
         KuduClient kuduClient = new KuduClient.KuduClientBuilder(KUDU_MASTER).build();

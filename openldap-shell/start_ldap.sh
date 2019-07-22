@@ -1,6 +1,6 @@
 #!/bin/bash
 #########################################################
-#  author: Fayson                                       #
+#  author: Feiren                                       #
 #  version: V1.0                                        #
 #  createTime: 2018-09-02                               #
 #  OpenLDAP 简单操作:                                   #

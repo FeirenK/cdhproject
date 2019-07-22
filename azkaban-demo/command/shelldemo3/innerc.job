@@ -1,5 +1,5 @@
 #command
 type=command
 command=sh test2.sh
-user.to.proxy=fayson
+user.to.proxy=Feiren
 dependencies=innera,innerb

@@ -9,11 +9,11 @@ import org.apache.spark.sql.SparkSession
   * package: com.cloudera.jdbc
   * describe: Spark2使用JDBC方式访问Kerberos环境下的Impala
   * 该示例使用到的配置文件有0290-jdbc.properties和jaas-impala.conf
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/6/27
   * creat_time: 下午4:25
-  * 公众号：Hadoop实操
+
   */
 object Spark2ImpalaJDBC {
 

@@ -13,11 +13,11 @@ import org.slf4j.LoggerFactory;
 /**
  * package: com.cloudera.mr
  * describe: 打包jar到集群使用hadoop命令提交作业示例
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/6
  * creat_time: 下午11:30
- * 公众号：Hadoop实操
+
  */
 public class WordCount {
 

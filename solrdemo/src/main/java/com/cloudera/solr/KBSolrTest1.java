@@ -29,11 +29,11 @@
 ///**
 // * package: com.cloudera.solr
 // * describe: TODO
-// * creat_user: Fayson
-// * email: htechinfo@163.com
+// * creat_user: Feiren
+// * email: feirenkuang@gmail.com
 // * creat_date: 2017/11/25
 // * creat_time: 下午11:40
-// * 公众号：Hadoop实操
+//
 // */
 //public class KBSolrTest1 {
 //
@@ -51,7 +51,7 @@
 //            Configuration configuration = new Configuration();
 //            configuration.set("hadoop.security.authentication" , "Kerberos");
 //            UserGroupInformation. setConfiguration(configuration);
-//            UserGroupInformation.loginUserFromKeytab("fayson@CLOUDERA.COM", "/Volumes/Transcend/keytab/fayson.keytab");
+//            UserGroupInformation.loginUserFromKeytab("Feiren@CLOUDERA.COM", "/Volumes/Transcend/keytab/Feiren.keytab");
 //            System.out.println(UserGroupInformation.getCurrentUser() + "------" + UserGroupInformation.getLoginUser());
 //
 //            UserGroupInformation loginUser = UserGroupInformation.getLoginUser();
@@ -69,7 +69,7 @@
 //                    //采用拦截器加权限验证
 //                    client.addRequestInterceptor(new HttpRequestInterceptor() {
 //                        public void process(HttpRequest request, HttpContext context) throws HttpException, IOException {
-//                            String enc = "fayson@CLOUDERA.COM" + ":" + "123456";
+//                            String enc = "Feiren@CLOUDERA.COM" + ":" + "123456";
 //                            request.addHeader("Authorization", "Basic " + Base64.encodeBase64String(enc.getBytes()));
 //                        }
 //                    });

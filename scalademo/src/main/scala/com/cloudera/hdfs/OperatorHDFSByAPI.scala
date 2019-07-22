@@ -8,11 +8,11 @@ import org.apache.hadoop.fs.FileSystem
 /**
   * package: com.cloudera.hdfs
   * describe: Scala访问Kerberos环境下的HDFS示例
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/11/13
   * creat_time: 下午9:02
-  * 公众号：Hadoop实操
+
   */
 object OperatorHDFSByAPI {
 
@@ -29,7 +29,7 @@ object OperatorHDFSByAPI {
 
     val fileSystem = FileSystem.get(configuration)
 
-    val testPath = "/fayson/test"
+    val testPath = "/Feiren/test"
     //创建HDFS目录
     HDFSUtils.mkdir(fileSystem, testPath)
     //设置目录属主及组

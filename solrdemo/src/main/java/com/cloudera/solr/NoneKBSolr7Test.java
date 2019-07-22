@@ -13,11 +13,11 @@
 ///**
 // * package: com.cloudera
 // * describe: 非Kerberos环境下连接Solr，基于sorlj7.1.0版本
-// * creat_user: Fayson
-// * email: htechinfo@163.com
+// * creat_user: Feiren
+// * email: feirenkuang@gmail.com
 // * creat_date: 2017/11/24
 // * creat_time: 下午10:12
-// * 公众号：Hadoop实操
+//
 // */
 //public class NoneKBSolrTest {
 //

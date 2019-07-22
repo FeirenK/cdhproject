@@ -5,11 +5,11 @@ import java.io.*;
 /**
  * package: com.cloudera.utils
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/12
  * creat_time: 下午11:12
- * 公众号：Hadoop实操
+
  */
 public class FileUtils {
 

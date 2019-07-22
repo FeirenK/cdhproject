@@ -8,11 +8,11 @@ import java.util.Random;
 /**
  * package: com.cloudera
  * describe: 随机生成一个Int数字，用与和天时间的时间戳相加获取
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/4/27
  * creat_time: 下午7:09
- * 公众号：Hadoop实操
+
  */
 public class RandomTime extends UDF {
 

@@ -10,11 +10,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.hdfs.nonekerberos
  * describe: 访问非Kerberos环境下的HDFS
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/2
  * creat_time: 下午11:54
- * 公众号：Hadoop实操
+
  */
 public class NoneKBHDFSTest {
 
@@ -28,21 +28,21 @@ public class NoneKBHDFSTest {
 
 
             //创建目录
-            HDFSUtils.mkdir(fileSystem, "/fayson1");
+            HDFSUtils.mkdir(fileSystem, "/tmp/feiren");
 
-            HDFSUtils.uploadFile(fileSystem , "/Volumes/Transcend/work/cdhproject/kafkademo", "/fayson1");
+            HDFSUtils.uploadFile(fileSystem , "C:\\Users\\Administrator\\Downloads\\README.txt", "/tmp/feiren/");
 
             //创建文件
-            HDFSUtils.createFile(fileSystem, "/fayson1/test.txt", "123testaaaaaaaaaa");
+            HDFSUtils.createFile(fileSystem, "/tmp/feiren/test.txt", "123testaaaaaaaaaa");
 
             //文件重命名
-            HDFSUtils.rename(fileSystem, "/fayson1/test.txt", "/fayson/fayson.txt");
+            HDFSUtils.rename(fileSystem, "/tmp/feiren/test.txt", "/tmp/feiren/feiren.txt");
 
-            //查看文件
-            HDFSUtils.readFile(fileSystem, "/fayson1/fayson.txt");
-
-            //删除文件
-            HDFSUtils.delete(fileSystem, "/fayson1/fayson.txt");
+//            //查看文件
+//            HDFSUtils.readFile(fileSystem, "/Feiren1/Feiren.txt");
+//
+//            //删除文件
+//            HDFSUtils.delete(fileSystem, "/Feiren1/Feiren.txt");
 
             fileSystem.close();
 

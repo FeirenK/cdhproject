@@ -8,7 +8,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.util.Properties;
 
 /**
- * Created by fayson on 2017/10/24.
+ * Created by Feiren on 2017/10/24.
  * 主要是用于向
  */
 public class MyProducer {

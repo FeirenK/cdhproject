@@ -5,11 +5,11 @@ import org.apache.hadoop.hive.ql.exec.UDF;
 /**
  * package: com.cloudera
  * describe: 根据传入的正则表达式和字符串将符合条件的字符串数据屏蔽
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/3/16
  * creat_time: 上午9:39
- * 公众号：Hadoop实操
+
  */
 public class DataMasking extends UDF {
 

@@ -13,11 +13,11 @@ import scala.collection.JavaConverters._
   * describe: Spark2 使用KuduContext访问Kudu
   * 该示例业务逻辑，Spark读取Hive的ods_user表前10条数据，写入Kudu表（通过ods_user表的Schema创建kudu表）
   * 读取kudu_user_info表数据，将返回的rdd转换为DataFrame写入到Hive的kudu2hive表中
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2019/1/25
   * creat_time: 上午10:58
-  * 公众号：Hadoop实操
+
   */
 object KuduSample {
 
@@ -38,7 +38,7 @@ object KuduSample {
 
   def main(args: Array[String]): Unit = {
 
-    val kuduMaster = "cdh1.fayson.com,cdh2.fayson.com,cdh3.fayson.com"
+    val kuduMaster = "cdh1.Feiren.com,cdh2.Feiren.com,cdh3.Feiren.com"
     val kuduTableName = "kudu_user_info"
     val hiveTableName = "kudu2hive"
 

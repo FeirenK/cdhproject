@@ -11,11 +11,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera.nokerberos
  * describe: 使用Oozie-client的API接口向Kerberos集群提交Java程序
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/03/02
  * creat_time: 下午20:56
- * 公众号：Hadoop实操
+
  */
 public class JavaWorkflowDemo {
     private static String oozieURL = "http://ip-172-31-16-68.ap-southeast-1.compute.internal:11002/oozie";
@@ -31,7 +31,7 @@ public class JavaWorkflowDemo {
 
         try {
             Properties properties = oozieClient.createConfiguration();
-            properties.put("oozie.wf.application.path", "${nameNode}/user/faysontest/oozie/javaaction");
+            properties.put("oozie.wf.application.path", "${nameNode}/user/Feirentest/oozie/javaaction");
             properties.put("oozie.use.system.libpath", "True");
             properties.put("nameNode", "hdfs://ip-172-31-16-68.ap-southeast-1.compute.internal:8020");
             properties.put("jobTracker", "ip-172-31-16-68.ap-southeast-1.compute.internal:8032");
@@ -39,7 +39,7 @@ public class JavaWorkflowDemo {
             properties.put("arg1", "10");
             properties.put("arg2", "10");
             properties.put("javaOpts", "-Xmx1000m");
-            properties.put("oozie.libpath", "${nameNode}/faysontest/jars/");
+            properties.put("oozie.libpath", "${nameNode}/Feirentest/jars/");
 
             //运行workflow
             String jobid = oozieClient.run(properties);

@@ -9,11 +9,11 @@ import java.util.HashMap;
 /**
  * package: com.cloudera
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/12
  * creat_time: 下午10:40
- * 公众号：Hadoop实操
+
  */
 public class RestAPIDemo {
 
@@ -31,7 +31,7 @@ public class RestAPIDemo {
         HashMap<String, String> headers = new HashMap<>();
         headers.put("Content-Type", "application/xml;charset=UTF-8");
         headers.put("Accept", "application/json");
-        headers.put("X-Requested-By", "fayson");
+        headers.put("X-Requested-By", "Feiren");
 
         //获取Oozie版本
         String requestURL = oozieURL + "/oozie/versions";
@@ -44,7 +44,7 @@ public class RestAPIDemo {
         //创建一个workflow
         requestURL = oozieURL + "/oozie/v1/jobs?action=start";
         String requestxml = FileUtils.readToString(confPath + "workflow.xml");
-        requestxml = requestxml.replaceAll("\\$USERNAME", "fayson").replaceAll("\\$NAMENODE", "hdfs://ip-172-31-16-68.ap-southeast-1.compute.internal:8020/user/bansalm/myapp/");
+        requestxml = requestxml.replaceAll("\\$USERNAME", "Feiren").replaceAll("\\$NAMENODE", "hdfs://ip-172-31-16-68.ap-southeast-1.compute.internal:8020/user/bansalm/myapp/");
 //        System.out.println(requestxml);
         KBHttpUtils.postAccess(requestURL, headers, requestxml);
 

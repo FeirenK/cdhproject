@@ -12,11 +12,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera
  * describe: Kerberos环境下通过Kafka的Bootstrap.Server消费数据
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/12
  * creat_time: 下午3:35
- * 公众号：Hadoop实操
+
  */
 public class MyConsumer {
 

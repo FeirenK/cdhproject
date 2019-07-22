@@ -9,11 +9,11 @@ import java.io.File;
 /**
  * package: com.cloudera.mr
  * describe: 向非Kerberos集群提交MR作业
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/4
  * creat_time: 下午11:37
- * 公众号：Hadoop实操
+
  */
 public class NodeKBMRTest {
 

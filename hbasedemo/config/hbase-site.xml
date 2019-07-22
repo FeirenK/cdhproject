@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>hbase.rootdir</name>
-    <value>hdfs://cdh01.fayson.com:8020/hbase</value>
+    <value>hdfs://cdh01.Feiren.com:8020/hbase</value>
   </property>
   <property>
     <name>hbase.client.write.buffer</name>
@@ -104,7 +104,7 @@
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>cdh01.fayson.com,cdh03.fayson.com,cdh02.fayson.com</value>
+    <value>cdh01.Feiren.com,cdh03.Feiren.com,cdh02.Feiren.com</value>
   </property>
   <property>
     <name>hbase.zookeeper.property.clientPort</name>
@@ -112,15 +112,15 @@
   </property>
   <property>
     <name>hbase.master.kerberos.principal</name>
-    <value>hbase/_HOST@FAYSON.COM</value>
+    <value>hbase/_HOST@Feiren.COM</value>
   </property>
   <property>
     <name>hbase.regionserver.kerberos.principal</name>
-    <value>hbase/_HOST@FAYSON.COM</value>
+    <value>hbase/_HOST@Feiren.COM</value>
   </property>
   <property>
     <name>hbase.thrift.kerberos.principal</name>
-    <value>hbase/_HOST@FAYSON.COM</value>
+    <value>hbase/_HOST@Feiren.COM</value>
   </property>
   <property>
     <name>hadoop.security.authorization</name>

@@ -8,11 +8,11 @@ import scala.collection.JavaConversions._
 /**
   * package: com.cloudera.utils
   * describe: 用户操作HDFS工具类
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/11/13
   * creat_time: 下午10:05
-  * 公众号：Hadoop实操
+
   */
 object HDFSUtils {
 

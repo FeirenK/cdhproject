@@ -12,11 +12,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.hbase.utils
  * describe: 操作HBase工具类
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/11/17
  * creat_time: 下午5:08
- * 公众号：Hadoop实操
+
  */
 public class HBaseUtils {
 

@@ -26,11 +26,11 @@ import java.util.Map;
 /**
  * package: com.cloudera.hbase.coprocessor.server
  * describe: HBase RegionServer上Endpoint Coprocessor实现，主要实现对指定列的Count、MAX、MIN、SUM聚合操作
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/13
  * creat_time: 下午11:11
- * 公众号：Hadoop实操
+
  */
 public class MyFirstCoprocessorEndPoint extends MyFirstCoprocessor.AggregationService implements Coprocessor, CoprocessorService {
     protected static final Log log = LogFactory.getLog(MyFirstCoprocessorEndPoint.class);

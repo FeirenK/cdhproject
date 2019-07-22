@@ -8,11 +8,11 @@ import java.util.Map;
 /**
  * package: com.cloudera
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/4/27
  * creat_time: 上午12:01
- * 公众号：Hadoop实操
+
  */
 public class IdCardGenerator {
     public static final Map<String, Integer> areaCode = new HashMap<String, Integer>();

@@ -19,11 +19,11 @@ import java.io.InputStreamReader;
 /**
  * package: com.cloudera.hdfs.nonekerberos
  * describe: Java使用HttpClient访问启用SSL的HttpFS服务
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/1/13
  * creat_time: 下午9:56
- * 公众号：Hadoop实操
+
  */
 public class HttpFSSSLDemo {
 

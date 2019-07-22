@@ -19,11 +19,11 @@ import scala.collection.mutable
 /**
   * package: com.cloudera.hbase
   * describe: 使用BulkLoad的方式将Hive数据导入HBase
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/7/31
   * creat_time: 下午2:04
-  * 公众号：Hadoop实操
+
   */
 object Hive2HBase {
 
@@ -31,7 +31,7 @@ object Hive2HBase {
 
     //库名、表名、rowKey对应的字段名、批次时间、需要删除表的时间参数
     val rowKeyField = "id"
-    val quorum = "cdh01.fayson.com,cdh02.fayson.com,cdh03.fayson.com"
+    val quorum = "cdh01.Feiren.com,cdh02.Feiren.com,cdh03.Feiren.com"
     val clientPort = "2181"
     val hBaseTempTable = "ods_user_hbase"
 

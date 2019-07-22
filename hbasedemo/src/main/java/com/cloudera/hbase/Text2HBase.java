@@ -14,11 +14,11 @@ import org.apache.hadoop.io.SequenceFile;
 /**
  * package: com.cloudera.hbase
  * describe: 文本文件入库HBase
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/04/30
  * creat_time: 上午12:49
- * 公众号：Hadoop实操
+
  */
 public class Text2HBase {
 

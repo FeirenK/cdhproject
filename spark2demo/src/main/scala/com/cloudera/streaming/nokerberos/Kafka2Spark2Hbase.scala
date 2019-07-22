@@ -30,11 +30,11 @@ import scala.util.parsing.json.JSON
     --driver-memory 2g \
     --num-executors 2 \
     spark2-demo-1.0-SNAPSHOT.jar
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/07/23
   * creat_time: 下午10:40
-  * 公众号：Hadoop实操
+
   */
 object Kafka2Spark2Hbase {
 

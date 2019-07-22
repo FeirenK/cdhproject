@@ -14,11 +14,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera.nokerberos
  * describe: 通过读取本地交易明细text文件将文件内容解析并组装为JSON发送到Kafka
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/4/27
  * creat_time: 下午4:42
- * 公众号：Hadoop实操
+
  */
 public class ReadFileToKafka {
     public static String confPath = System.getProperty("user.dir") + File.separator + "conf";

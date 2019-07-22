@@ -8,11 +8,11 @@ import java.util.regex.Pattern;
 /**
  * package: com.cloudera.utils
  * describe: Json字符串转Map
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/6/2
  * creat_time: 下午11:19
- * 公众号：Hadoop实操
+
  */
 public class JsonStr2Map {
 

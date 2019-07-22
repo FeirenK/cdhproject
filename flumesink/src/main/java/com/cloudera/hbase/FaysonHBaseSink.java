@@ -43,13 +43,13 @@ import java.util.NavigableMap;
 /**
  * package: com.cloudera.hbase
  * describe: 自定义HBaseSink，实现了自定义Rowkey及解析JSON字符串
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/6/3
  * creat_time: 下午11:43
- * 公众号：Hadoop实操
+
  */
-public class FaysonHBaseSink extends AbstractSink implements Configurable {
+public class FeirenHBaseSink extends AbstractSink implements Configurable {
     private String tableName;
     private byte[] columnFamily;
     //增加自定义Rowkey字段，可以用多个列组合，以","分割
@@ -57,8 +57,8 @@ public class FaysonHBaseSink extends AbstractSink implements Configurable {
     private HTable table;
     private long batchSize;
     private Configuration config;
-    private static final Logger logger = LoggerFactory.getLogger(FaysonHBaseSink.class);
-    private FaysonHBaseEventSerializer serializer;
+    private static final Logger logger = LoggerFactory.getLogger(FeirenHBaseSink.class);
+    private FeirenHBaseEventSerializer serializer;
     private String eventSerializerType;
     private Context serializerContext;
     private String kerberosPrincipal;
@@ -72,17 +72,17 @@ public class FaysonHBaseSink extends AbstractSink implements Configurable {
     // Internal hooks used for unit testing.
     private DebugIncrementsCallback debugIncrCallback = null;
 
-    public FaysonHBaseSink(){
+    public FeirenHBaseSink(){
         this(HBaseConfiguration.create());
     }
 
-    public FaysonHBaseSink(Configuration conf){
+    public FeirenHBaseSink(Configuration conf){
         this.config = conf;
     }
 
     @VisibleForTesting
     @InterfaceAudience.Private
-    FaysonHBaseSink(Configuration conf, DebugIncrementsCallback cb) {
+    FeirenHBaseSink(Configuration conf, DebugIncrementsCallback cb) {
         this(conf);
         this.debugIncrCallback = cb;
     }
@@ -159,7 +159,7 @@ public class FaysonHBaseSink extends AbstractSink implements Configurable {
     @Override
     public void configure(Context context){
         tableName = context.getString(HBaseSinkConfigurationConstants.CONFIG_TABLE);
-        rowKeys = context.getString(FaysonHBaseSinkConstants.CONFIG_ROWKEYS);
+        rowKeys = context.getString(FeirenHBaseSinkConstants.CONFIG_ROWKEYS);
         String cf = context.getString(
                 HBaseSinkConfigurationConstants.CONFIG_COLUMN_FAMILY);
         batchSize = context.getLong(
@@ -182,8 +182,8 @@ public class FaysonHBaseSink extends AbstractSink implements Configurable {
                 HBaseSinkConfigurationConstants.CONFIG_SERIALIZER_PREFIX));
         columnFamily = cf.getBytes(Charsets.UTF_8);
         try {
-            Class<? extends FaysonHBaseEventSerializer> clazz =
-                    (Class<? extends FaysonHBaseEventSerializer>)
+            Class<? extends FeirenHBaseEventSerializer> clazz =
+                    (Class<? extends FeirenHBaseEventSerializer>)
                             Class.forName(eventSerializerType);
             serializer = clazz.newInstance();
             serializer.configure(serializerContext);
@@ -510,7 +510,7 @@ public class FaysonHBaseSink extends AbstractSink implements Configurable {
 
     @VisibleForTesting
     @InterfaceAudience.Private
-    FaysonHBaseEventSerializer getSerializer() {
+    FeirenHBaseEventSerializer getSerializer() {
         return serializer;
     }
 

@@ -14,11 +14,11 @@ import java.sql.ResultSet;
 /**
  * package: com.cloudera.impalajdbc
  * describe: 该事例主要讲述通过JDBC连接HAProxy访问Kerberos环境下的Impala
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/22
  * creat_time: 下午11:48
- * 公众号：Hadoop实操
+
  *
  * 需要注意的是KrbHostFQDN的地址与HAProxy地址一致，否则会报认证失败的异常。
  */
@@ -42,7 +42,7 @@ public class KBHAProxySimple {
             Configuration configuration = new Configuration();
             configuration.set("hadoop.security.authentication" , "Kerberos");
             UserGroupInformation. setConfiguration(configuration);
-            UserGroupInformation.loginUserFromKeytab("fayson@CLOUDERA.COM", "/Volumes/Transcend/keytab/fayson.keytab");
+            UserGroupInformation.loginUserFromKeytab("Feiren@CLOUDERA.COM", "/Volumes/Transcend/keytab/Feiren.keytab");
             System.out.println(UserGroupInformation.getCurrentUser() + "------" + UserGroupInformation.getLoginUser());
 
             UserGroupInformation loginUser = UserGroupInformation.getLoginUser();

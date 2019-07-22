@@ -3,9 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cdhproject.iml" filepath="$PROJECT_DIR$/cdhproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flumesink/flume-sink.iml" filepath="$PROJECT_DIR$/flumesink/flume-sink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generatedata/generate-data.iml" filepath="$PROJECT_DIR$/generatedata/generate-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbasedemo/hbase-demo.iml" filepath="$PROJECT_DIR$/hbasedemo/hbase-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfsdemo/hdfs-demo.iml" filepath="$PROJECT_DIR$/hdfsdemo/hdfs-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiveudfdemo/hive-udf-demo.iml" filepath="$PROJECT_DIR$/hiveudfdemo/hive-udf-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbcdemo/jdbcdemo.iml" filepath="$PROJECT_DIR$/jdbcdemo/jdbcdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkademo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafkademo/kafka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kududemo/kudu-demo.iml" filepath="$PROJECT_DIR$/kududemo/kudu-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livydemo/livy-demo.iml" filepath="$PROJECT_DIR$/livydemo/livy-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mrdemo/mrdemo.iml" filepath="$PROJECT_DIR$/mrdemo/mrdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ooziedemo/oozie-demo.iml" filepath="$PROJECT_DIR$/ooziedemo/oozie-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/solrdemo/solrdemo.iml" filepath="$PROJECT_DIR$/solrdemo/solrdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparkdemo/spark-demo.iml" filepath="$PROJECT_DIR$/sparkdemo/spark-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark2demo/spark2-demo.iml" filepath="$PROJECT_DIR$/spark2demo/spark2-demo.iml" />
     </modules>
   </component>
 </project>

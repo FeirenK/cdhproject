@@ -11,15 +11,15 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * package: com.cloudera.streaming
   * describe: 基于Cloudera-clabs提供的HBaseContext实现HBase的读写等操作
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/1/7
   * creat_time: 上午11:43
-  * 公众号：Hadoop实操
+
   */
 object HBaseOperator {
 
-  val zkHost = "cdh01.fayson.com";
+  val zkHost = "cdh01.Feiren.com";
   val zkPort = "2181"
 
   def main(args: Array[String]): Unit = {

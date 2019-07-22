@@ -23,11 +23,11 @@
 ///**
 // * package: com.cloudera.solr
 // * describe: TODO
-// * creat_user: Fayson
-// * email: htechinfo@163.com
+// * creat_user: Feiren
+// * email: feirenkuang@gmail.com
 // * creat_date: 2017/11/26
 // * creat_time: 上午1:52
-// * 公众号：Hadoop实操
+//
 // */
 //public class Test {
 //    public static void main(String[] args) {
@@ -59,7 +59,7 @@
 ////                return "123456";
 ////            }
 ////            public Principal getUserPrincipal() {
-////                Principal principal = new PrincipalImpl("fayson@CLOUDERA.COM");
+////                Principal principal = new PrincipalImpl("Feiren@CLOUDERA.COM");
 ////                return principal;
 ////            }
 ////        };
@@ -81,7 +81,7 @@
 //
 //    }
 //
-//    static final String kuser = "fayson"; // your account name
+//    static final String kuser = "Feiren"; // your account name
 //    static final String kpass = "123456"; // your password for the account
 //
 //    static class MyAuthenticator extends Authenticator {

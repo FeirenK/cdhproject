@@ -21,11 +21,11 @@ import java.util.Map;
 /**
  * package: com.cloudera
  * describe: Http请求工具类
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/12
  * creat_time: 下午12:16
- * 公众号：Hadoop实操
+
  */
 public class HttpUtils {
 

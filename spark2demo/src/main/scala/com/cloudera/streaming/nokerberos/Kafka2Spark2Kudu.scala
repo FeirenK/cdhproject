@@ -28,11 +28,11 @@ import scala.collection.JavaConverters._
     --driver-memory 2g \
     --num-executors 2 \
     spark2-demo-1.0-SNAPSHOT.jar
-  * creat_user: Fayson
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/8/6
   * creat_time: 下午5:05
-  * 公众号：Hadoop实操
+
   */
 object Kafka2Spark2Kudu {
 

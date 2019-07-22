@@ -10,9 +10,9 @@ import java.sql.ResultSet;
 /**
  * package: com.cloudera.hivejdbc
  * describe: 该事例主要讲述通过JDBC连接非Kerberos环境下的Hive
- * creat_user: Fayson
- * email: htechinfo@163.com
- * 公众号：Hadoop实操
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
+
  * creat_date: 2017/11/21
  * creat_time: 下午9:03
  */

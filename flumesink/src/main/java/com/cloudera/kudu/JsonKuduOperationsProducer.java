@@ -25,11 +25,11 @@ import java.util.Map;
 /**
  * package: com.cloudera.kudu
  * describe: 自定义的KuduSink用于解析JSON格式数据
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/6/2
  * creat_time: 下午11:07
- * 公众号：Hadoop实操
+
  */
 @InterfaceAudience.Public
 @InterfaceStability.Evolving

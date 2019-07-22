@@ -17,11 +17,11 @@ import java.util.Properties;
  * 在Kafka集成Sentry后向Kafka生产数据方式，必须指定group.id
  * package: com.cloudera.nokerberos
  * describe: 读取本地用户数据文件，接数据文件解析组装成JSON格式数据发送至指定的Topic
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/28
  * creat_time: 上午10:37
- * 公众号：Hadoop实操
+
  */
 public class ReadUserInfoFileToKafka_0286 {
 

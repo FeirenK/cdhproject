@@ -22,16 +22,16 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * package: com.cloudera.hbase.coprocessor.client
  * describe: 调用HBase RegionServer端的协处理器
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/14
  * creat_time: 下午6:36
- * 公众号：Hadoop实操
+
  */
 public class MyFirstCoprocessExample {
 
     public static void main(String[] args) {
-        String table_name = "fayson_coprocessor";
+        String table_name = "Feiren_coprocessor";
 
         //初始化HBase配置
         Configuration configuration = HBaseConfiguration.create();

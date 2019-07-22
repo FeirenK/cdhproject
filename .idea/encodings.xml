@@ -2,9 +2,19 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flumesink" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generatedata" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbasedemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hdfsdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hiveudfdemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jdbcdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafkademo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kududemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livydemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mrdemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ooziedemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/solrdemo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/solrdemosecond" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark2demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sparkdemo" charset="UTF-8" />
   </component>
 </project>

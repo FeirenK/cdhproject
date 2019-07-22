@@ -1,6 +1,6 @@
-dn: uid=faysontest,ou=People,dc=fayson,dc=com
-uid: faysontest
-cn: faysontest
+dn: uid=Feirentest,ou=People,dc=Feiren,dc=com
+uid: Feirentest
+cn: Feirentest
 objectClass: account
 objectClass: posixAccount
 objectClass: top
@@ -9,11 +9,11 @@ userPassword: 123456
 loginShell: /bin/bash
 uidNumber: 1333
 gidNumber: 1333
-homeDirectory: /home/faysontest
+homeDirectory: /home/Feirentest
 
-dn: cn=faysontest,ou=Group,dc=fayson,dc=com
+dn: cn=Feirentest,ou=Group,dc=Feiren,dc=com
 objectClass: posixGroup
 objectClass: top
-cn: faysontest
+cn: Feirentest
 userPassword: 123456
 gidNumber: 1333

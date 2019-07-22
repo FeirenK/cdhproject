@@ -8,11 +8,11 @@ import org.apache.hadoop.hbase.client.*;
 /**
  * package: com.cloudera.hbase
  * describe: 访问非Kerberos环境下的HBase
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/11/17
  * creat_time: 下午4:55
- * 公众号：Hadoop实操
+
  */
 public class HBaseSample {
 

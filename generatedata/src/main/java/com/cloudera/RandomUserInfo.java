@@ -3,11 +3,11 @@ package com.cloudera;
 /**
  * package: com.cloudera
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/4/26
  * creat_time: 下午11:52
- * 公众号：Hadoop实操
+
  */
 
 /**

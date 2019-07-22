@@ -26,11 +26,11 @@ import scala.util.parsing.json.JSON
     --master yarn-client --num-executors 3 --driver-memory 1g \
     --driver-cores 1 --executor-memory 1g --executor-cores 1 \
     spark-demo-1.0-SNAPSHOT.jar
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/5/28
   * creat_time: 上午10:09
-  * 公众号：Hadoop实操
+
   */
 object Kafka2Spark2Kudu {
   Logger.getLogger("org").setLevel(Level.ERROR) //设置日志级别

@@ -10,16 +10,16 @@ import java.sql.ResultSet;
 /**
  * package: com.cloudera.hivejdbc
  * describe: 集群中只启用了Sentry服务如何访问Hive
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/1/15
  * creat_time: 下午8:57
- * 公众号：Hadoop实操
+
  */
 public class SentryOnlyDemo {
 
     private static String JDBC_DRIVER = "org.apache.hive.jdbc.HiveDriver";
-    private static String CONNECTION_URL ="jdbc:hive2://ip-172-31-6-148.fayson.com:10000/";
+    private static String CONNECTION_URL ="jdbc:hive2://ip-172-31-6-148.Feiren.com:10000/";
     private static String username = "hive";
     private static String password = "";
 

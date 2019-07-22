@@ -20,7 +20,7 @@ import scala.util.parsing.json.JSON
   * package: com.cloudera.streaming
   * describe: Kerberos环境中Spark2Streaming 应用实时读取Kafka数据，解析后存入Kudu
   * 使用spark2-submit的方式提交作业
-    spark2-submit --class com.fayson.streaming.Kafka2Spark2Kudu \
+    spark2-submit --class com.Feiren.streaming.Kafka2Spark2Kudu \
     --master yarn \
     --deploy-mode client \
     --executor-memory 2g \
@@ -28,17 +28,17 @@ import scala.util.parsing.json.JSON
     --driver-memory 2g \
     --num-executors 2 \
     --queue default  \
-    --principal fayson@FAYSON.COM \
-    --keytab /data/disk1/0286-kafka-shell/conf/fayson.keytab \
+    --principal Feiren@Feiren.COM \
+    --keytab /data/disk1/0286-kafka-shell/conf/Feiren.keytab \
     --files "/data/disk1/0286-kafka-shell/conf/jaas.conf#jaas.conf" \
     --driver-java-options "-Djava.security.auth.login.config=/data/disk1/0286-kafka-shell/conf/jaas.conf" \
     --conf "spark.executor.extraJavaOptions=-Djava.security.auth.login.config=/data/disk1/0286-kafka-shell/conf/jaas.conf" \
     spark2-demo-1.0-SNAPSHOT.jar
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/5/28
   * creat_time: 上午10:09
-  * 公众号：Hadoop实操
+
   */
 object Kafka2Spark2Kudu {
   Logger.getLogger("com").setLevel(Level.ERROR) //设置日志级别

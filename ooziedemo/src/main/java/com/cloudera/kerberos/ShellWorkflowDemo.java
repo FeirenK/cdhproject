@@ -9,11 +9,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera.kerberos
  * describe: 使用Oozie-client的API接口向Kerberos集群提交Shell Action作业
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/3/15
  * creat_time: 下午11:10
- * 公众号：Hadoop实操
+
  */
 public class ShellWorkflowDemo {
     private static String oozieURL = "http://ip-172-31-16-68.ap-southeast-1.compute.internal:11000/oozie";
@@ -28,12 +28,12 @@ public class ShellWorkflowDemo {
         oozieClient.setDebugMode(1);
         try {
             Properties properties = oozieClient.createConfiguration();
-            properties.put("oozie.wf.application.path", "${nameNode}/user/fayson/oozie/shellaction");
+            properties.put("oozie.wf.application.path", "${nameNode}/user/Feiren/oozie/shellaction");
             properties.put("oozie.use.system.libpath", "True");
             properties.put("nameNode", "hdfs://nameservice1");
             properties.put("jobTracker", "ip-172-31-16-68.ap-southeast-1.compute.internal:8032");
             properties.put("exec", "lib/ooziejob.sh");
-            properties.put("argument", "fayson");
+            properties.put("argument", "Feiren");
 
             //运行workflow
             String jobid = oozieClient.run(properties);

@@ -10,11 +10,11 @@ import org.apache.spark.streaming.receiver.Receiver
 /**
   * package: com.cloudera.streaming
   * describe: 自定义Receiver类用于提供SparkStreaming的DataStream数据源
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/1/9
   * creat_time: 上午12:21
-  * 公众号：Hadoop实操
+
   */
 class MyReceiver(zkHost: String, zkPort: String) extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) with Logging {
 

@@ -12,18 +12,18 @@ import java.security.PrivilegedExceptionAction;
 /**
  * package: com.cloudera
  * describe: 访问Kerberos环境下的Kudu
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/11/15
  * creat_time: 上午12:32
- * 公众号：Hadoop实操
+
  */
 public class KuduKerberosExample {
 
     public static void main(String[] args) {
         ClientUtils.initKerberosENV(false);
 
-        String kudu_master = System.getProperty("kuduMasters", "cdh1.fayson.com:7051,cdh2.fayson.com:7051,cdh3.fayson.com:7051");
+        String kudu_master = System.getProperty("kuduMasters", "cdh1.Feiren.com:7051,cdh2.Feiren.com:7051,cdh3.Feiren.com:7051");
 
         try {
             KuduClient kuduClient = UserGroupInformation.getLoginUser().doAs(

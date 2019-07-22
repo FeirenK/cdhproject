@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.cloudera:spark-hbase:0.0.3-clabs-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cloudera/spark-hbase/0.0.3-clabs-SNAPSHOT/spark-hbase-0.0.3-clabs-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cloudera/spark-hbase/0.0.3-clabs-SNAPSHOT/spark-hbase-0.0.3-clabs-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cloudera/spark-hbase/0.0.3-clabs-SNAPSHOT/spark-hbase-0.0.3-clabs-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

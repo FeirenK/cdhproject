@@ -11,11 +11,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera.kerberos
  * describe: 使用Oozie API接口向Kerberos集群提交Spark2作业
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/3/10
  * creat_time: 下午19:15
- * 公众号：Hadoop实操
+
  */
 public class Spark2WorkflowDemo {
 
@@ -34,7 +34,7 @@ public class Spark2WorkflowDemo {
 //            System.out.println(oozieClient.getServerBuildVersion());
 
             Properties properties = oozieClient.createConfiguration();
-            properties.put("oozie.wf.application.path", "${nameNode}/user/fayson/oozie/spark2oozie");
+            properties.put("oozie.wf.application.path", "${nameNode}/user/Feiren/oozie/spark2oozie");
             properties.put("name", "MyfirstSpark");
             properties.put("nameNode", "hdfs://ip-172-31-16-68.ap-southeast-1.compute.internal:8020");
             properties.put("oozie.use.system.libpath", "True");
@@ -43,10 +43,10 @@ public class Spark2WorkflowDemo {
             properties.put("class", "org.apache.spark.examples.SparkPi");
             properties.put("arg", "50");
             properties.put("sparkOpts", "--num-executors 4 --driver-memory 1g --driver-cores 1 --executor-memory 1g --executor-cores 1");
-            properties.put("jar", "${nameNode}/fayson/jars/spark-examples_2.11-2.1.0.cloudera2.jar");
-            properties.put("oozie.libpath", "${nameNode}/fayson/jars");
+            properties.put("jar", "${nameNode}/Feiren/jars/spark-examples_2.11-2.1.0.cloudera2.jar");
+            properties.put("oozie.libpath", "${nameNode}/Feiren/jars");
             properties.put("jobTracker", "ip-172-31-16-68.ap-southeast-1.compute.internal:8032");
-            properties.put("file", "${nameNode}/fayson/jars");
+            properties.put("file", "${nameNode}/Feiren/jars");
 
             //运行workflow
             String jobid = oozieClient.run(properties);

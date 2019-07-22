@@ -1,7 +1,7 @@
 #!/bin/bash
 #########################################
 # 创建Topic
-# kafka-topics --create --zookeeper cdh01.fayson.com:2181,cdh02.fayson.com:2181,cdh03.fayson.com:2181 --replication-factor 3 --partitions 3 --topic kafka_sparkstreaming_hbase_topic
+# kafka-topics --create --zookeeper cdh01.Feiren.com:2181,cdh02.Feiren.com:2181,cdh03.Feiren.com:2181 --replication-factor 3 --partitions 3 --topic kafka_sparkstreaming_hbase_topic
 #
 ########################################
 

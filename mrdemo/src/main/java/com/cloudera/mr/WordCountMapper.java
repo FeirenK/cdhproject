@@ -10,11 +10,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.mr
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/4
  * creat_time: 下午11:52
- * 公众号：Hadoop实操
+
  */
 public class WordCountMapper extends Mapper<LongWritable, Text, Text, LongWritable> {
 

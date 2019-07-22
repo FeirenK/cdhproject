@@ -13,11 +13,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.solr
  * describe: 使用Solrj4.10.3-cdh5.11.2版本访问非Kerberos环境下的Solr集群
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/11/26
  * creat_time: 上午12:08
- * 公众号：Hadoop实操
+
  */
 public class NoneKBSolrTest {
 

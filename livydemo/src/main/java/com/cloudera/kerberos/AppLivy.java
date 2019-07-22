@@ -6,11 +6,11 @@ import java.util.HashMap;
 /**
  * package: com.cloudera
  * describe: Kerberos环境下Livy RESTful API接口调用
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/11
  * creat_time: 上午10:50
- * 公众号：Hadoop实操
+
  */
 public class AppLivy {
 
@@ -27,10 +27,10 @@ public class AppLivy {
         HashMap<String, String> headers = new HashMap<>();
         headers.put("Content-Type", "application/json");
         headers.put("Accept", "application/json");
-        headers.put("X-Requested-By", "fayson");
+        headers.put("X-Requested-By", "Feiren");
 
         //创建一个交互式会话
-        String kindJson = "{\"kind\": \"spark\", \"proxyUser\":\"fayson\"}";
+        String kindJson = "{\"kind\": \"spark\", \"proxyUser\":\"Feiren\"}";
 //        KBHttpUtils.postAccess(LIVY_HOST + "/sessions", headers, kindJson);
 
         //执行code
@@ -41,7 +41,7 @@ public class AppLivy {
 //        KBHttpUtils.deleteAccess(LIVY_HOST + "/sessions/3", headers);
 
         //封装提交Spark作业的JSON数据
-        String submitJob = "{\"className\": \"org.apache.spark.examples.SparkPi\",\"executorMemory\": \"1g\",\"args\": [200],\"file\": \"/fayson-yarn/jars/spark-examples-1.6.0-cdh5.14.0-hadoop2.6.0-cdh5.14.0.jar\"}";
+        String submitJob = "{\"className\": \"org.apache.spark.examples.SparkPi\",\"executorMemory\": \"1g\",\"args\": [200],\"file\": \"/Feiren-yarn/jars/spark-examples-1.6.0-cdh5.14.0-hadoop2.6.0-cdh5.14.0.jar\"}";
         //向集群提交Spark作业
 //        KBHttpUtils.postAccess(LIVY_HOST + "/batches", headers, submitJob);
 

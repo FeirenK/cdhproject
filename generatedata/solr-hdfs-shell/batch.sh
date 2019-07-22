@@ -1,4 +1,4 @@
-INPUT='/fayson/solr'
+INPUT='/Feiren/solr'
 COLLECTION='collection1'
 NN='ip-172-31-8-230.ap-southeast-1.compute.internal'
 ZK='ip-172-31-8-230.ap-southeast-1.compute.internal'

@@ -14,11 +14,11 @@ import java.io.InputStream;
 /**
  * package: com.cloudera.hdfs.utils
  * describe: HDFS文件系统操作工具类
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/2
  * creat_time: 下午10:39
- * 公众号：Hadoop实操
+
  */
 public class HDFSUtils {
 

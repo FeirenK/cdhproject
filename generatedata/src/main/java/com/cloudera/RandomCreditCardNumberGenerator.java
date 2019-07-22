@@ -7,11 +7,11 @@ import java.util.Vector;
 /**
  * package: com.cloudera
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/4/27
  * creat_time: 上午11:52
- * 公众号：Hadoop实操
+
  */
 public class RandomCreditCardNumberGenerator {
     /*

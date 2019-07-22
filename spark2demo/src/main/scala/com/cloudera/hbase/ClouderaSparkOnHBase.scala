@@ -11,11 +11,11 @@ import org.apache.spark.sql.SparkSession
 /**
   * package: com.cloudera.hbase
   * describe: 使用Cloudera提供的Spark On HBase访问HBase
-  * creat_user: Fayson
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2019/1/24
   * creat_time: 上午10:59
-  * 公众号：Hadoop实操
+
   */
 object ClouderaSparkOnHBase {
 

@@ -11,11 +11,11 @@ import java.util.Map;
 /**
  * package: com.cloudera.utils
  * describe: 访问Kerberos环境的Http工具类
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/12
  * creat_time: 下午4:57
- * 公众号：Hadoop实操
+
  */
 public class KBHttpUtils {
 

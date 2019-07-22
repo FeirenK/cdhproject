@@ -4,15 +4,15 @@
 <configuration>
   <property>
     <name>dfs.namenode.name.dir</name>
-    <value>file:///dfs/nn</value>
+    <value>file:///data2/dfs/nn</value>
   </property>
   <property>
     <name>dfs.namenode.servicerpc-address</name>
-    <value>cdh01:8022</value>
+    <value>model.hoperun.com:8022</value>
   </property>
   <property>
     <name>dfs.https.address</name>
-    <value>cdh01:50470</value>
+    <value>model.hoperun.com:50470</value>
   </property>
   <property>
     <name>dfs.https.port</name>
@@ -20,7 +20,7 @@
   </property>
   <property>
     <name>dfs.namenode.http-address</name>
-    <value>cdh01:50070</value>
+    <value>model.hoperun.com:50070</value>
   </property>
   <property>
     <name>dfs.replication</name>
@@ -40,7 +40,7 @@
   </property>
   <property>
     <name>dfs.namenode.acls.enabled</name>
-    <value>true</value>
+    <value>false</value>
   </property>
   <property>
     <name>dfs.client.use.legacy.blockreader</name>

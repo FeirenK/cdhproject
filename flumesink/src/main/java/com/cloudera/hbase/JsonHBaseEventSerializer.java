@@ -21,12 +21,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * package: com.cloudera.hbase
  * describe: 自定义HBaseSink，主要用于解析JSON字符串及指定rowkey
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/6/3
- * 公众号：Hadoop实操
+
  */
-public class JsonHBaseEventSerializer implements FaysonHBaseEventSerializer {
+public class JsonHBaseEventSerializer implements FeirenHBaseEventSerializer {
     private static final Logger logger = LoggerFactory.getLogger(JsonHBaseEventSerializer.class);
     // Config vars
     /** Comma separated list of column names to place matching groups in. */

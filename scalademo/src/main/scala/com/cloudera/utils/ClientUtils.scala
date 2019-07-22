@@ -9,11 +9,11 @@ import org.apache.hadoop.security.UserGroupInformation
 /**
   * package: com.cloudera.utils
   * describe: 客户端访问HDFS工具类
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/11/13
   * creat_time: 下午9:16
-  * 公众号：Hadoop实操
+
   */
 object ClientUtils {
 

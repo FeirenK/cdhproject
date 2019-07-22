@@ -10,17 +10,17 @@ import java.util.HashMap;
 /**
  * package: com.cloudera
  * describe: 通过CM提供的API配置Yarn动态资源池
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/8/7
  * creat_time: 下午3:14
- * 公众号：Hadoop实操
+
  */
 public class RestApiConfPool {
 
-    private static String REQ_CLUSTER_URL = "http://cdh01.fayson.com:7180/api/v19/clusters";
-    private static String REQ_SETPOOL_URL = "http://cdh01.fayson.com:7180/api/v19/clusters/cluster/services/yarn/config";
-    private static String REQ_FRESHPOOL_URL = "http://cdh01.fayson.com:7180/api/v19/clusters/cluster/commands/poolsRefresh";
+    private static String REQ_CLUSTER_URL = "http://cdh01.Feiren.com:7180/api/v19/clusters";
+    private static String REQ_SETPOOL_URL = "http://cdh01.Feiren.com:7180/api/v19/clusters/cluster/services/yarn/config";
+    private static String REQ_FRESHPOOL_URL = "http://cdh01.Feiren.com:7180/api/v19/clusters/cluster/commands/poolsRefresh";
     private static String USERNAME = "admin";
     private static String PASSWORD = "admin";
 

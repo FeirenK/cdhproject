@@ -9,16 +9,16 @@ import java.sql.ResultSet;
 /**
  * package: com.cloudera.sparkjdbc
  * describe: 使用JDBC的方式访问非Kerberos环境下Spark1.6 Thrift Server
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/6/1
  * creat_time: 上午10:21
- * 公众号：Hadoop实操
+
  */
 public class NoneKBSample {
 
     private static String JDBC_DRIVER = "org.apache.hive.jdbc.HiveDriver";
-    private static String CONNECTION_URL ="jdbc:hive2://cdh04.fayson.com:10001/";
+    private static String CONNECTION_URL ="jdbc:hive2://cdh04.Feiren.com:10001/";
 
     static {
         try {

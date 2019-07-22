@@ -8,11 +8,11 @@ import java.util.Random;
 /**
  * package: com.cloudera
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/4/26
  * creat_time: 下午11:55
- * 公众号：Hadoop实操
+
  */
 public class CreateIDCardNo {
     // 18位身份证号码各位的含义:

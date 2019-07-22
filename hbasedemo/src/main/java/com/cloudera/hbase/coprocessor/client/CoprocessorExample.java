@@ -18,11 +18,11 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * package: com.cloudera.hbase.coprocessor
  * describe: 客户端如何调用自定义的corprocessor类，Endpoint类型，该示例代码中介绍了几种调用的方式，以及各种调用方式的效率
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/9
  * creat_time: 下午11:30
- * 公众号：Hadoop实操
+
  */
 public class CoprocessorExample {
 

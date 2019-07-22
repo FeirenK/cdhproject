@@ -19,11 +19,11 @@ import java.io.FileInputStream;
 /**
  * package: com.cloudera.hdfs.nonekerberos
  * describe: 使用HTTP的方式访问Hadoop集群的文件系统
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/21
  * creat_time: 下午11:59
- * 公众号：Hadoop实操
+
  */
 public class HttpFsTest {
 
@@ -31,7 +31,7 @@ public class HttpFsTest {
 
         try {
             CloseableHttpClient httpclient = HttpClients.createDefault();
-            HttpGet httpGet = new HttpGet("http://cdh01:50070/webhdfs/v1/?user.name=fayson&op=LISTSTATUS");
+            HttpGet httpGet = new HttpGet("http://model.hoperun.com:50070/webhdfs/v1/?user.name=hdfs&op=LISTSTATUS");
             CloseableHttpResponse response = httpclient.execute(httpGet);
             HttpEntity entity = response.getEntity();
 
@@ -39,7 +39,7 @@ public class HttpFsTest {
 
             //向HDFS put文件
 
-            HttpPost post = new HttpPost("http://ip-172-31-6-148.fayson.com:14000/webhdfs/v1/fayson1?user.name=hdfs&op=CREATE");
+            HttpPost post = new HttpPost("http://ip-172-31-6-148.Feiren.com:14000/webhdfs/v1/Feiren1?user.name=hdfs&op=CREATE");
 
             FileBody binFileBody = new FileBody(new File("/Volumes/Transcend/work/cdhproject/kafkademo/target/kafka-demo-1.0-SNAPSHOT.jar"));
 

@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>hbase.rootdir</name>
-    <value>hdfs://cdh01.fayson.com:8020/hbase</value>
+    <value>hdfs://cdh01.Feiren.com:8020/hbase</value>
   </property>
   <property>
     <name>hbase.client.write.buffer</name>
@@ -100,7 +100,7 @@
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>cdh01.fayson.com,cdh03.fayson.com,cdh02.fayson.com</value>
+    <value>cdh01.Feiren.com,cdh03.Feiren.com,cdh02.Feiren.com</value>
   </property>
   <property>
     <name>hbase.zookeeper.property.clientPort</name>

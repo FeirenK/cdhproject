@@ -11,11 +11,11 @@ import java.io.IOException;
 /**
  * package: com.cloudera.hdfs.basic
  * describe: 使用JAVA操作基本的HDFS API示例，用于POC测试
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/24
  * creat_time: 下午11:15
- * 公众号：Hadoop实操
+
  */
 public class Launch {
 

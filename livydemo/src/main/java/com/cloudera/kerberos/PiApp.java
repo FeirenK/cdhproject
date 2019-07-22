@@ -11,11 +11,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/11
  * creat_time: 上午2:17
- * 公众号：Hadoop实操
+
  */
 public class PiApp {
     private static String LIVY_HOST = "http://ip-172-31-21-83.ap-southeast-1.compute.internal:8998";

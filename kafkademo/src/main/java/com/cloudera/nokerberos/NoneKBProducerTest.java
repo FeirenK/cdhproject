@@ -12,11 +12,11 @@ import java.util.Properties;
 /**
  * package: com.cloudera
  * describe: 非Kerberos环境下向指定Topic生产消息
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/15
  * creat_time: 下午11:38
- * 公众号：Hadoop实操
+
  */
 public class NoneKBProducerTest {
 
@@ -38,7 +38,7 @@ public class NoneKBProducerTest {
 
             Producer<String, String> producer = new KafkaProducer<String, String>(props);
             for (int i = 0; i < 10; i++) {
-                String message = i + "\t" + "fayson" + i  + "\t" + 22+i;
+                String message = i + "\t" + "Feiren" + i  + "\t" + 22+i;
                 ProducerRecord record = new ProducerRecord<String, String>(topic_name, message);
                 producer.send(record);
                 System.out.println(message);

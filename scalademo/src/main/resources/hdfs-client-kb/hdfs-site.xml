@@ -16,7 +16,7 @@
   </property>
   <property>
     <name>ha.zookeeper.quorum</name>
-    <value>cdh1.fayson.com:2181,cdh2.fayson.com:2181,cdh3.fayson.com:2181</value>
+    <value>cdh1.Feiren.com:2181,cdh2.Feiren.com:2181,cdh3.Feiren.com:2181</value>
   </property>
   <property>
     <name>dfs.ha.namenodes.nameservice1</name>
@@ -24,35 +24,35 @@
   </property>
   <property>
     <name>dfs.namenode.rpc-address.nameservice1.namenode62</name>
-    <value>cdh1.fayson.com:8020</value>
+    <value>cdh1.Feiren.com:8020</value>
   </property>
   <property>
     <name>dfs.namenode.servicerpc-address.nameservice1.namenode62</name>
-    <value>cdh1.fayson.com:8022</value>
+    <value>cdh1.Feiren.com:8022</value>
   </property>
   <property>
     <name>dfs.namenode.http-address.nameservice1.namenode62</name>
-    <value>cdh1.fayson.com:50070</value>
+    <value>cdh1.Feiren.com:50070</value>
   </property>
   <property>
     <name>dfs.namenode.https-address.nameservice1.namenode62</name>
-    <value>cdh1.fayson.com:50470</value>
+    <value>cdh1.Feiren.com:50470</value>
   </property>
   <property>
     <name>dfs.namenode.rpc-address.nameservice1.namenode253</name>
-    <value>cdh2.fayson.com:8020</value>
+    <value>cdh2.Feiren.com:8020</value>
   </property>
   <property>
     <name>dfs.namenode.servicerpc-address.nameservice1.namenode253</name>
-    <value>cdh2.fayson.com:8022</value>
+    <value>cdh2.Feiren.com:8022</value>
   </property>
   <property>
     <name>dfs.namenode.http-address.nameservice1.namenode253</name>
-    <value>cdh2.fayson.com:50070</value>
+    <value>cdh2.Feiren.com:50070</value>
   </property>
   <property>
     <name>dfs.namenode.https-address.nameservice1.namenode253</name>
-    <value>cdh2.fayson.com:50470</value>
+    <value>cdh2.Feiren.com:50470</value>
   </property>
   <property>
     <name>dfs.replication</name>
@@ -116,18 +116,18 @@
   </property>
   <property>
     <name>dfs.namenode.kerberos.principal</name>
-    <value>hdfs/_HOST@FAYSON.COM</value>
+    <value>hdfs/_HOST@Feiren.COM</value>
   </property>
   <property>
     <name>dfs.namenode.kerberos.internal.spnego.principal</name>
-    <value>HTTP/_HOST@FAYSON.COM</value>
+    <value>HTTP/_HOST@Feiren.COM</value>
   </property>
   <property>
     <name>dfs.datanode.kerberos.principal</name>
-    <value>hdfs/_HOST@FAYSON.COM</value>
+    <value>hdfs/_HOST@Feiren.COM</value>
   </property>
   <property>
     <name>dfs.nfs.kerberos.principal</name>
-    <value>hdfs/_HOST@FAYSON.COM</value>
+    <value>hdfs/_HOST@Feiren.COM</value>
   </property>
 </configuration>

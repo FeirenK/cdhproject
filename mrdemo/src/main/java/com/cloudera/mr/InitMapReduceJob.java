@@ -12,11 +12,11 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  * package: com.cloudera.mr
  * describe: 初始化MapReduce作业工具类
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/12/4
  * creat_time: 下午11:58
- * 公众号：Hadoop实操
+
  */
 public class InitMapReduceJob {
 
@@ -53,7 +53,7 @@ public class InitMapReduceJob {
             //指定要处理的原始数据所存放的路径
             //调用FileInputFormat对象的setInputPath()方法，参数的文件路径，是设置的源数据路径，当此处为集群的路径是就是跑在集群上的程序，
             //如果设置在当前机器的路径，就是本地模式
-            FileInputFormat.setInputPaths(wcjob, "/fayson");
+            FileInputFormat.setInputPaths(wcjob, "/Feiren");
 
             //指定处理之后的结果输出到哪个路径，注意此时应当在路径应当是差不多的
             FileOutputFormat.setOutputPath(wcjob, new Path("/wc/output"));

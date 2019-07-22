@@ -15,11 +15,11 @@ import scala.collection.JavaConverters._
 /**
   * package: com.cloudera.utils
   * describe: 使用Kudu管理Kafka的Offset
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/8/6
   * creat_time: 下午5:46
-  * 公众号：Hadoop实操
+
   */
 object KafkaOffsetByKudu {
 

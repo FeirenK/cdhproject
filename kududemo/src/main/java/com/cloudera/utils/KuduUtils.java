@@ -12,11 +12,11 @@ import java.util.List;
 /**
  * package: com.cloudera.utils
  * describe: TODO
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/11/15
  * creat_time: 上午12:31
- * 公众号：Hadoop实操
+
  */
 public class KuduUtils {
 

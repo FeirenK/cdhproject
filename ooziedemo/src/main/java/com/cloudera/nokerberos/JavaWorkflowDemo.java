@@ -10,33 +10,33 @@ import java.util.Properties;
 /**
  * package: com.cloudera.nokerberos
  * describe: 使用Oozie-client的API接口向非Kerberos集群提交Java Program作业
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/2/13
  * creat_time: 下午9:04
- * 公众号：Hadoop实操
+
  */
 public class JavaWorkflowDemo {
 
-    private static String oozieURL = "http://ip-172-31-6-148.fayson.com:11000/oozie";
+    private static String oozieURL = "http://ip-172-31-6-148.Feiren.com:11000/oozie";
 
     public static void main(String[] args) {
 
-        System.setProperty("user.name", "faysontest");
+        System.setProperty("user.name", "Feirentest");
         OozieClient oozieClient = new OozieClient(oozieURL);
         try {
             System.out.println(oozieClient.getServerBuildVersion());
 
             Properties properties = oozieClient.createConfiguration();
-            properties.put("oozie.wf.application.path", "${nameNode}/user/faysontest/oozie/javaaction");
+            properties.put("oozie.wf.application.path", "${nameNode}/user/Feirentest/oozie/javaaction");
             properties.put("oozie.use.system.libpath", "True");
-            properties.put("nameNode", "hdfs://ip-172-31-10-118.fayson.com:8020");
-            properties.put("jobTracker", "ip-172-31-6-148.fayson.com:8032");
+            properties.put("nameNode", "hdfs://ip-172-31-10-118.Feiren.com:8020");
+            properties.put("jobTracker", "ip-172-31-6-148.Feiren.com:8032");
             properties.put("mainClass", "org.apache.hadoop.examples.QuasiMonteCarlo");
             properties.put("arg1", "10");
             properties.put("arg2", "10");
             properties.put("javaOpts", "-Xmx1000m");
-            properties.put("oozie.libpath", "${nameNode}/faysontest/jars/");
+            properties.put("oozie.libpath", "${nameNode}/Feirentest/jars/");
 
             //运行workflow
             String jobid = oozieClient.run(properties);

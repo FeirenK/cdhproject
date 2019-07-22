@@ -8,11 +8,11 @@ import org.apache.spark.sql.hive.HiveContext;
 /**
  * package: hive
  * describe: 使用Spark API访问Hive表
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2018/5/16
  * creat_time: 下午11:51
- * 公众号：Hadoop实操
+
  */
 public class ReadHiveSample {
 

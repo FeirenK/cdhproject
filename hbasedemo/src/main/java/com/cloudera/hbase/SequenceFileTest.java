@@ -21,17 +21,17 @@ import org.apache.hadoop.io.Text;
 /**
  * package: com.cloudera.hbase
  * describe: 使用Java将图片生成sequence file并保存到HBase
- * creat_user: Fayson
- * email: htechinfo@163.com
+ * creat_user: Feiren
+ * email: feirenkuang@gmail.com
  * creat_date: 2017/11/30
  * creat_time: 上午12:49
- * 公众号：Hadoop实操
+
  */
 public class SequenceFileTest {
 
     //HDFS路径
-    static String inpath = "/fayson/picHbase";
-    static String outpath = "/fayson/out";
+    static String inpath = "/Feiren/picHbase";
+    static String outpath = "/Feiren/out";
     static SequenceFile.Writer writer = null;
     static HTable htable = null;
 

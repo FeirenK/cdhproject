@@ -23,11 +23,11 @@
 ///**
 // * package: com.cloudera
 // * describe: Kerberos环境下连接Solr，基于sorlj7.1.0版本
-// * creat_user: Fayson
-// * email: htechinfo@163.com
+// * creat_user: Feiren
+// * email: feirenkuang@gmail.com
 // * creat_date: 2017/11/24
 // * creat_time: 下午4:08
-// * 公众号：Hadoop实操
+//
 // */
 //public class KBSolrTest {
 //
@@ -46,7 +46,7 @@
 //            Configuration configuration = new Configuration();
 //            configuration.set("hadoop.security.authentication" , "Kerberos");
 //            UserGroupInformation. setConfiguration(configuration);
-//            UserGroupInformation.loginUserFromKeytab("fayson@CLOUDERA.COM", "/Volumes/Transcend/keytab/fayson.keytab");
+//            UserGroupInformation.loginUserFromKeytab("Feiren@CLOUDERA.COM", "/Volumes/Transcend/keytab/Feiren.keytab");
 //            System.out.println(UserGroupInformation.getCurrentUser() + "------" + UserGroupInformation.getLoginUser());
 //
 //            UserGroupInformation loginUser = UserGroupInformation.getLoginUser();

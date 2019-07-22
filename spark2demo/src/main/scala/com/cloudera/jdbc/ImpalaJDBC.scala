@@ -7,11 +7,11 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 /**
   * package: com.cloudera.jdbc
   * describe: TODO
-  * creat_user: Fayson 
-  * email: htechinfo@163.com
+  * creat_user: Feiren
+  * email: feirenkuang@gmail.com
   * creat_date: 2018/6/27
   * creat_time: 下午4:14
-  * 公众号：Hadoop实操
+
   */
 object ImpalaJDBC {
 
